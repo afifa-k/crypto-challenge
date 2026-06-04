@@ -33,13 +33,13 @@ This is a binary classification problem — your model outputs `1` (price goes u
 
 ## 🚀 How to Participate
 
-### Step 1 — Fork this repo
+### Step 1 - Fork this repo
 Click the **Fork** button at the top right of this page.
 
-### Step 2 — Train your model
+### Step 2 - Train your model
 Use `train.csv` to build any model you like — logistic regression, random forest, LSTM, anything goes.
 
-### Step 3 — Generate predictions
+### Step 3 - Generate predictions
 Run your model on `test_features.csv` and save predictions as a CSV with exactly two columns:
 
 ```csv
@@ -50,17 +50,17 @@ id,prediction
 ...
 ```
 
-### Step 4 — Save your file
+### Step 4 - Save your file
 Save your predictions as `submissions/<your_github_username>.csv` inside the repo.  
 For example if your username is `john123`, save it as `submissions/john123.csv`.
 
-### Step 5 — Open a Pull Request
+### Step 5 - Open a Pull Request
 Open a PR to this repo. A bot will automatically:
 - Validate your CSV format
 - Calculate your accuracy score
 - Post the result as a comment on your PR
 
-### Step 6 — Resubmissions
+### Step 6 - Resubmissions
 Not happy with your score? Close the PR, update your CSV, and open a new one.  
 Only your **best score** is kept on the leaderboard.
 
